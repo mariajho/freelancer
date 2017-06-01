@@ -1,17 +1,50 @@
 /*
  * Estilos de tu proyecto
  */
-header{
-	background: #0f1230;
-	width: 100%;
-	top:0;
-	position: fixed;
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
   
- 
+
+header {
+ 	background: #0b1030;
+ 	position: fixed;
+ 	width: 100%;
+ 	height: 80px;
+  	top: 0;
+  	color: white;
+  	font-size: 10px;
+  }
+
+a {
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+	top: right;
+	float: right;
+		
 }
 
-.menu p{
-	top: 30px;
-
+a:hover {
+	background-color: #63dae2;
+	font-size: 10px;
 }
 
+.fondo {
+	background-color: #56e2e0;
+	width: 100%;
+	height: 500px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.texto {
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+
+	
