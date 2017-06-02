@@ -16,7 +16,6 @@ header {
  	position: fixed;
  	width: 100%;
  	height: 80px;
-  	top: 0;
   	color: white;
   	font-size: 10px;
   }
@@ -29,7 +28,7 @@ h1{
 ul li a {
 	color: white;
 	text-decoration: none;
-	margin-right: 30px;20		
+	margin-right: 30px;
 	font-size: 15px;
 	position: relative;
 	left: 800px;
@@ -85,9 +84,49 @@ a:hover {
 	z-index: 1000;
 }
 
-.about {
-	background-color: #56e2e0;
-	color: white;
+.text-productos{
+	
+	position: relative;
+	top: 90px;
+	left: 380px;
 }
 
-	
+p {
+	position: relative;
+	right: 30px;
+	top: 90px;
+}
+
+button {
+	position: relative;
+	top: 110px;
+	right: 120px;
+}
+
+.contacto h1{
+	position: relative;
+	top: 150px;
+	left: 350px;
+}
+
+input {
+	position: relative;
+	top: 170px;
+	left: 300px;
+}
+
+.Datos{
+	position: relative;
+	top: 70px;
+}
+
+.Datos h1{
+	position: relative;
+	right: 40px;
+	top: 150px;
+}
+
+.Datos1 h1{
+	position: relative;
+	top: 150px;
+}
